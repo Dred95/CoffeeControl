@@ -72,18 +72,18 @@ namespace CoffeeControl
                 Material Spoon = new Material();
                 Spoon = Spoon.createMaterial("Ложки", spoon, Material.Units.Шт.ToString());
 
-                materialsForProduct.Add(Cup);
-                materialsForProduct.Add(Cover);
-                materialsForProduct.Add(Spoon);
+                this.materialsForProduct.Add(Cup);
+                this.materialsForProduct.Add(Cover);
+                this.materialsForProduct.Add(Spoon);
             }            
 
-            materialsForProduct.Add(Coffee);
-            materialsForProduct.Add(Chocolate);
-            materialsForProduct.Add(Milk);
-            materialsForProduct.Add(Cream);
-            materialsForProduct.Add(Sugar);
-            materialsForProduct.Add(SyropCaramel1);
-            materialsForProduct.Add(SyropCocount1);            
+            this.materialsForProduct.Add(Coffee);
+            this.materialsForProduct.Add(Chocolate);
+            this.materialsForProduct.Add(Milk);
+            this.materialsForProduct.Add(Cream);
+            this.materialsForProduct.Add(Sugar);
+            this.materialsForProduct.Add(SyropCaramel1);
+            this.materialsForProduct.Add(SyropCocount1);            
         }
         
     }
